@@ -34,13 +34,6 @@ class Country_data(Resource):
     https://www.worldometers.info/coronavirus/
     
     country is the parameter passed to the endpoint.
-    Example
-    GET apicovid2019.herokuapp.com/country=Nepal
-    
-    The site apicovid2019.heroku.com is the site where
-    it is hosted on. 
-    It returns info of covid-19 status in the requested
-    country of the world.
     ''' 
 
     def get(self,country):
@@ -65,9 +58,6 @@ class Continent_data(Resource):
     country is the parameter passed to the endpoint.
     Example
     GET apicovid2019.herokuapp.com/continent=Asia
-    
-    The site apicovid2019.heroku.com is the site where
-    it is hosted on. 
     It returns info of covid-19 status in the requested
     continent of the world.
     
